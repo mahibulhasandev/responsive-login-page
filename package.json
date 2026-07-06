@@ -1,0 +1,20 @@
+{
+  "name": "login-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./css/plugin.css -o ./dist/plugin.css",
+    "watch": "postcss ./css/plugin.css -o ./dist/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.2",
+    "postcss": "^8.5.16",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.3.2"
+  }
+}
